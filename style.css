@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+.header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    height: auto;
+    padding: 1% 10%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 517px;
+}
+
+.question-box input[type=text] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 40%;
+    padding: 10px;
+}
+
+
+ button {
+    padding: 10px 25px;
+    background-color: violet;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid rgb(40, 39, 39);
+}
+
+label {
+    font-weight: bold;
+    font-size: 2rem;
+}
